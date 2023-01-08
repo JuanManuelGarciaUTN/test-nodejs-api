@@ -11,15 +11,17 @@ module.exports =
                     title: "error",
                     mensage: "File not found here"
                 }
-                envVars = process.env;
-                console.log(process.env);
-                console.log(process.env.LOVE);
-                text + "\n" + envVars;
                 text = JSON.stringify(text);
                 response.status(404).send(text);
             }
 
             text = JSON.stringify(okey);
+
+            let envVars = process.env;
+            console.log("fuck",process.env);
+            console.log(process.env.LOVE);
+            text = text + "\n" + envVars;
+
             response.send(text);
         })
     }
