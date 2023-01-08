@@ -1,4 +1,5 @@
 const {express} = require("express");
+const process = require('process');
 const {readFile} = require("fs");
 
 module.exports =    
@@ -10,7 +11,7 @@ module.exports =
                     title: "error",
                     mensage: "File not found here"
                 }
-                envVars = process.env.LOVE;
+                envVars = process.env;
                 text + "\n" + envVars;
                 text = JSON.stringify(text);
                 response.status(404).send(text);
