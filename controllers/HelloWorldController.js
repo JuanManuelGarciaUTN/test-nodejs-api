@@ -5,7 +5,7 @@ const {readFile} = require("fs");
 module.exports =    
 {
     Saludar: function (request, response) {
-        readFile("./hello.txt", "utf-8", (error, okey) =>{
+        readFile("./hello.txt", "utf-8", (error, content) =>{
             if(error) {
                 let text = {
                     title: "error",
@@ -15,14 +15,10 @@ module.exports =
                 response.status(404).send(text);
             }
 
-            text = JSON.stringify(okey);
-
-            let envVars = process.env;
-            console.log("fuck",process.env);
-            console.log(process.env.LOVE);
-            text = text + "\n" + envVars;
-
-            response.send(text);
+            let playload = {status: 200,
+                            text: content,
+                            body: request.body};
+            response.send(playload);
         })
     }
 }
