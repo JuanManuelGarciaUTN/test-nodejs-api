@@ -10,7 +10,7 @@ module.exports =
                     title: "error",
                     mensage: "File not found here"
                 }
-                envVars = process.env;
+                envVars = process.env.LOVE;
                 text + "\n" + envVars;
                 text = JSON.stringify(text);
                 response.status(404).send(text);
