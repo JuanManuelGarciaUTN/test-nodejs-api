@@ -20,7 +20,6 @@ app.get("/empleados/?", (req, res) => {
         }
         else
         {
-            console.log(result);
             res.send(result);
         }
    })

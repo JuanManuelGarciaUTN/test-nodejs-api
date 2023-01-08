@@ -1,18 +1,25 @@
 {
-  "name": "api",
+  "name": "test-nodejs-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node ."
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanManuelGarciaUTN/test-nodejs-api.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanManuelGarciaUTN/test-nodejs-api/issues"
+  },
+  "homepage": "https://github.com/JuanManuelGarciaUTN/test-nodejs-api#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mysql": "^2.18.1",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.20"
   }
