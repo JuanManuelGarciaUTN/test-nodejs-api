@@ -1,6 +1,6 @@
 const express = require("express");
 
-const HelloWorldController = require("./controller/HelloWorldController");
+const HelloWorldController = require("./controllers/HelloWorldController.js");
 
 const app = express();
 
