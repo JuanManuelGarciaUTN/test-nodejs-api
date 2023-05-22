@@ -6,11 +6,11 @@ const Preguntados = require("./controllers/preguntados.js");
 const app = express();
 app.use(express.json());
 
-app.get("/arte", HelloWorldController.obtenerPreguntasArte);
-app.get("/deporte", HelloWorldController.obtenerPreguntasDeporte);
-app.get("/geografia", HelloWorldController.obtenerPreguntasGeografia);
-app.get("/historia", HelloWorldController.obtenerPreguntasHistoria);
-app.get("/ciencia", HelloWorldController.obtenerPreguntasCiencia);
-app.get("/entretenimiento", HelloWorldController.obtenerPreguntasEntretenimiento);
+app.get("/arte", Preguntados.obtenerPreguntasArte);
+app.get("/deporte", Preguntados.obtenerPreguntasDeporte);
+app.get("/geografia", Preguntados.obtenerPreguntasGeografia);
+app.get("/historia", Preguntados.obtenerPreguntasHistoria);
+app.get("/ciencia", Preguntados.obtenerPreguntasCiencia);
+app.get("/entretenimiento", Preguntados.obtenerPreguntasEntretenimiento);
 
 app.listen(process.env.PORT || 3000, () => {console.log("App ready <3");});
