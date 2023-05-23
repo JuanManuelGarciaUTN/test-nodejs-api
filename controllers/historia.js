@@ -1,0 +1,821 @@
+exports.historia = [
+    {
+      "p": "¿Qué civilización antigua tenía faraones como gobernantes?",
+      "r": "Egipto",
+      "i1": "Roma",
+      "i2": "Grecia",
+      "i3": "Persia"
+    },
+    {
+      "p": "¿Cuál es la comida típica madrileña?",
+      "r": "El cocido",
+      "i1": "Paella",
+      "i2": "Tapas",
+      "i3": "Gazpacho"
+    },
+    {
+      "p": "¿A qué representan las K de un juego de naipes?",
+      "r": "A los cuatro grandes reyes",
+      "i1": "A las cuatro damas",
+      "i2": "A los cuatro ases",
+      "i3": "A los cuatro naipes"
+    },
+    {
+      "p": "¿A qué pueblo derrotó Julio César?",
+      "r": "Todas las respuestas son correctas",
+      "i1": "Egipcios",
+      "i2": "Cartagineses",
+      "i3": "Griegos"
+    },
+    {
+      "p": "¿Cuándo se produjo la Batalla de Las Piedras?",
+      "r": "1811",
+      "i1": "1492",
+      "i2": "1776",
+      "i3": "1914"
+    },
+    {
+      "p": "¿Cuál es la ideología opositora del Comunismo?",
+      "r": "Capitalismo",
+      "i1": "Socialismo",
+      "i2": "Anarquismo",
+      "i3": "Fascismo"
+    },
+    {
+      "p": "¿En la antigua Grecia, cómo participaban en los juegos olímpicos?",
+      "r": "Desnudos",
+      "i1": "Con túnicas blancas",
+      "i2": "Con armaduras",
+      "i3": "Con disfraces"
+    },
+    {
+      "p": "¿Qué país reconoció Italia a través de los Pactos de Letrán de 1929?",
+      "r": "La Ciudad del Vaticano",
+      "i1": "España",
+      "i2": "Francia",
+      "i3": "Alemania"
+    },
+    {
+      "p": "¿Quién dijo la frase 'miente, miente que algo quedará'?",
+      "r": "Joseph Goebbels",
+      "i1": "Winston Churchill",
+      "i2": "Adolf Hitler",
+      "i3": "Benito Mussolini"
+    },
+    {
+      "p": "¿Cómo se decía en latín la famosa expresión 'La suerte está echada'?",
+      "r": "Alea iacta est",
+      "i1": "Carpe diem",
+      "i2": "In vino veritas",
+      "i3": "Veni, vidi, vici"
+    },
+{
+      "p": "¿Por cuánto vendió Rusia a Alaska a los Estados Unidos?",
+      "r": "Alrededor de 7,2 millones de dólares",
+      "i1": "Alrededor de 1 millón de dólares",
+      "i2": "Alrededor de 10 millones de dólares",
+      "i3": "Alrededor de 100 millones de dólares"
+    },
+    {
+      "p": "¿Cómo se llama el co-fundador de Apple Inc?",
+      "r": "Stephen Wozniak",
+      "i1": "Steve Jobs",
+      "i2": "Bill Gates",
+      "i3": "Mark Zuckerberg"
+    },
+    {
+      "p": "¿Qué le fue devuelto a China el 1º de Julio de 1997?",
+      "r": "Hong Kong",
+      "i1": "Macau",
+      "i2": "Taiwán",
+      "i3": "Tíbet"
+    },
+    {
+      "p": "¿Qué país comenzó la Segunda Guerra Mundial?",
+      "r": "Alemania",
+      "i1": "Estados Unidos",
+      "i2": "Japón",
+      "i3": "Reino Unido"
+    },
+    {
+      "p": "¿Cuál fue el nombre que los romanos le dieron a la Gran Bretaña?",
+      "r": "Britannia",
+      "i1": "Hispania",
+      "i2": "Galia",
+      "i3": "Germania"
+    },
+    {
+      "p": "¿Qué ciudad fue capital de España en el siglo 17?",
+      "r": "Valladolid",
+      "i1": "Madrid",
+      "i2": "Sevilla",
+      "i3": "Barcelona"
+    },
+    {
+      "p": "¿Qué gran líder militar gobernó Francia luego de que sucediera la Revolución Francesa?",
+      "r": "Napoleón",
+      "i1": "Luis XIV",
+      "i2": "Robespierre",
+      "i3": "Luís XVI"
+    },
+    {
+      "p": "¿Cuándo fue la guerra de África?",
+      "r": "De 1859 a 1860",
+      "i1": "De 1914 a 1918",
+      "i2": "De 1939 a 1945",
+      "i3": "De 1870 a 1871"
+    },
+    {
+      "p": "¿Cómo pasó a llamarse el Imperio Austríaco tras la revolución de 1848?",
+      "r": "Imperio Austrohúngaro",
+      "i1": "Imperio Otomano",
+      "i2": "Imperio Prusiano",
+      "i3": "Imperio Ruso"
+    },
+    {
+      "p": "¿Cómo se llamaba el caballo de Alejandro Magno?",
+      "r": "Bucéfalo",
+      "i1": "Pegaso",
+      "i2": "Ferrari",
+      "i3": "Rocinante"
+    },
+{
+      "p": "¿En qué año Francia se convirtió en República?",
+      "r": "1792",
+      "i1": "1789",
+      "i2": "1804",
+      "i3": "1815"
+    },
+    {
+      "p": "¿Qué país NO sudamericano estuvo involucrado en la guerra del Pacífico?",
+      "r": "Inglaterra",
+      "i1": "Chile",
+      "i2": "Perú",
+      "i3": "Bolivia"
+    },
+    {
+      "p": "¿Qué país le regaló la Estatua de la Libertad a Nueva York?",
+      "r": "Francia",
+      "i1": "Estados Unidos",
+      "i2": "Reino Unido",
+      "i3": "Canadá"
+    },
+    {
+      "p": "¿Cuándo se viaja por primera vez al espacio?",
+      "r": "1961",
+      "i1": "1957",
+      "i2": "1969",
+      "i3": "1975"
+    },
+    {
+      "p": "¿Con qué nombre son conocidos los peleset, uno de los 'pueblos del mar' que invadieron Egipto?",
+      "r": "Filisteos",
+      "i1": "Hititas",
+      "i2": "Asirios",
+      "i3": "Persas"
+    },
+    {
+      "p": "¿A qué diosa está dedicado el Partenón?",
+      "r": "Atenea",
+      "i1": "Afrodita",
+      "i2": "Hera",
+      "i3": "Artemisa"
+    },
+    {
+      "p": "¿A qué bando se unió Asturias cuando se produjo el levantamiento con el que comenzó la Guerra Civil?",
+      "r": "Republicano",
+      "i1": "Nacional",
+      "i2": "Anarquista",
+      "i3": "Comunista"
+    },
+    {
+      "p": "¿Qué ciudad quedó partida en dos tras la Segunda Guerra Mundial?",
+      "r": "Berlín",
+      "i1": "Viena",
+      "i2": "Varsovia",
+      "i3": "Budapest"
+    },
+    {
+      "p": "¿Cuál fue el faraón que reinó durante 66 años en Egipto?",
+      "r": "Ramsés II",
+      "i1": "Cleopatra",
+      "i2": "Akenatón",
+      "i3": "Tutankamón"
+    },
+    {
+      "p": "¿Quién fue el autor de la frase 'Puedo comprar a todos los hombres del mundo'?",
+      "r": "Howard Hughes",
+      "i1": "John D. Rockefeller",
+      "i2": "Andrew Carnegie",
+      "i3": "J.P. Morgan"
+    },
+{
+      "p": "¿Cuántos meses duró la batalla de Stalingrado en la Segunda Guerra Mundial?",
+      "r": "Seis meses",
+      "i1": "Tres meses",
+      "i2": "Nueve meses",
+      "i3": "Doce meses"
+    },
+    {
+      "p": "Según el Libro Guiness de los récords, ¿cuánto tiempo duró la guerra más corta de la historia?",
+      "r": "45 minutos",
+      "i1": "1 día",
+      "i2": "1 semana",
+      "i3": "1 hora"
+    },
+    {
+      "p": "¿Cómo se llama el burro de Sancho Panza?",
+      "r": "Rucio",
+      "i1": "Dulcinea",
+      "i2": "Pegaso",
+      "i3": "Manchitas"
+    },
+    {
+      "p": "¿Qué día se celebra la Independencia de República Dominicana?",
+      "r": "27 de febrero",
+      "i1": "12 de octubre",
+      "i2": "4 de julio",
+      "i3": "9 de mayo"
+    },
+    {
+      "p": "¿Qué asociación estadounidense se dedicaba a asesinar a las personas de raza negra?",
+      "r": "Ku Klux Klan",
+      "i1": "Mafia",
+      "i2": "CIA",
+      "i3": "NSA"
+    },
+    {
+      "p": "¿Quién fue Luís XIV?",
+      "r": "Rey de Francia",
+      "i1": "Papa de la Iglesia Católica",
+      "i2": "Filósofo famoso",
+      "i3": "Presidente de Estados Unidos"
+    },
+    {
+      "p": "¿En qué ciudad se promulgó la constitución de 1821?",
+      "r": "Cádiz",
+      "i1": "Madrid",
+      "i2": "Barcelona",
+      "i3": "Sevilla"
+    },
+    {
+      "p": "¿Quién dijo la famosa frase 'La suerte está echada'?",
+      "r": "Julio César",
+      "i1": "Napoleón Bonaparte",
+      "i2": "Alejandro Magno",
+      "i3": "Cleopatra"
+    },
+    {
+      "p": "¿Quién fue uno de los promotores de la primera línea regular de ferrocarril de la Península Ibérica?",
+      "r": "Miquel Biada Bunyol",
+      "i1": "Antoni Gaudí",
+      "i2": "Miguel de Cervantes",
+      "i3": "Pablo Picasso"
+    },
+    {
+      "p": "¿Qué imperio conquistó Hernán Cortés?",
+      "r": "El Azteca",
+      "i1": "El Romano",
+      "i2": "El Inca",
+      "i3": "El Otomano"
+    },
+{
+      "p": "¿Durante los Juicios de Núremberg se juzgó a los dirigentes, colaboradores y responsables de qué régimen?",
+      "r": "Del nacionalismo alemán",
+      "i1": "Del comunismo soviético",
+      "i2": "Del imperialismo británico",
+      "i3": "Del fascismo italiano"
+    },
+    {
+      "p": "¿Quién fue el primer rey de Roma, según la tradición romana?",
+      "r": "Rómulo",
+      "i1": "Julio César",
+      "i2": "Marco Antonio",
+      "i3": "Augusto"
+    },
+    {
+      "p": "¿Quién fue el primer presidente de los Estados Unidos?",
+      "r": "George Washington",
+      "i1": "Abraham Lincoln",
+      "i2": "Thomas Jefferson",
+      "i3": "Benjamin Franklin"
+    },
+    {
+      "p": "¿De qué color eran los permisos de conducir en España en el año 2003?",
+      "r": "Rosa",
+      "i1": "Verde",
+      "i2": "Azul",
+      "i3": "Amarillo"
+    },
+    {
+      "p": "¿Qué significan las siglas RENFE?",
+      "r": "Red nacional de ferrocarriles españoles",
+      "i1": "Red europea de navegación fluvial",
+      "i2": "Registro nacional de empresas financieras",
+      "i3": "Reunión de empresarios noveles y emprendedores"
+    },
+    {
+      "p": "¿Qué evento marca el fin de la prehistoria?",
+      "r": "La escritura",
+      "i1": "La invención de la rueda",
+      "i2": "La Revolución Industrial",
+      "i3": "La llegada del homo sapiens"
+    },
+    {
+      "p": "¿A quién mató el anarquista Angiolillo?",
+      "r": "Cánovas del Castillo",
+      "i1": "Franco",
+      "i2": "Gandhi",
+      "i3": "Churchill"
+    },
+    {
+      "p": "La fiebre del oro fue un período de migraciones hacia áreas rurales para explorar oro. ¿Dónde se produjo la más famosa?",
+      "r": "California",
+      "i1": "Australia",
+      "i2": "Alaska",
+      "i3": "Sudáfrica"
+    },
+    {
+      "p": "¿Qué explorador, cuyos restos momificados se exhibieron en Perú, fue asesinado por sus propios hombres?",
+      "r": "Francisco Pizarro",
+      "i1": "Hernán Cortés",
+      "i2": "Vasco da Gama",
+      "i3": "Ferdinand Magellan"
+    },
+    {
+      "p": "¿En qué ciudad se encuentra el único faro romano en funcionamiento del mundo?",
+      "r": "A Coruña",
+      "i1": "Roma",
+      "i2": "Barcelona",
+      "i3": "Atenas"
+    },
+{
+      "p": "¿Qué sitio mexicano es considerado una de las Nuevas 7 Maravillas del mundo?",
+      "r": "Chichen Itza",
+      "i1": "Teotihuacan",
+      "i2": "Palenque",
+      "i3": "Tulum"
+    },
+    {
+      "p": "¿Quién fue el presidente del gobierno español entre 1983 y 1996?",
+      "r": "Felipe González",
+      "i1": "José María Aznar",
+      "i2": "Adolfo Suárez",
+      "i3": "Mariano Rajoy"
+    },
+    {
+      "p": "¿Cuál de estos países no ha invadido nunca el Reino Unido?",
+      "r": "Bolivia",
+      "i1": "Francia",
+      "i2": "España",
+      "i3": "Alemania"
+    },
+    {
+      "p": "La toma de Granada fue en el año...",
+      "r": "1492",
+      "i1": "1521",
+      "i2": "1498",
+      "i3": "1453"
+    },
+    {
+      "p": "¿Qué fuerte tomaron las tropas mexicanas en 1836 tras trece días de asedio?",
+      "r": "El Álamo",
+      "i1": "San Juan de Ulúa",
+      "i2": "Chapultepec",
+      "i3": "Castillo de San Felipe"
+    },
+    {
+      "p": "¿En qué período de tiempo se desarrolló la dictadura franquista en España?",
+      "r": "1939-1975",
+      "i1": "1914-1918",
+      "i2": "1936-1939",
+      "i3": "1945-1990"
+    },
+    {
+      "p": "¿En qué año fue el último enfrentamiento bélico por las Islas Malvinas entre Argentina e Inglaterra?",
+      "r": "1982",
+      "i1": "1978",
+      "i2": "1986",
+      "i3": "1990"
+    },
+    {
+      "p": "¿En qué año sucedió el accidente de Chernóbil?",
+      "r": "1986",
+      "i1": "1979",
+      "i2": "1991",
+      "i3": "2001"
+    },
+    {
+      "p": "¿De qué conflicto formó parte la Guerra de Invierno entre Finlandia y la URSS?",
+      "r": "Segunda Guerra Mundial",
+      "i1": "Guerra Fría",
+      "i2": "Guerra Civil Española",
+      "i3": "Guerra de Vietnam"
+    },
+    {
+      "p": "¿En qué ciudad española tuvo lugar el motín de Godoy?",
+      "r": "Aranjuez",
+      "i1": "Madrid",
+      "i2": "Barcelona",
+      "i3": "Sevilla"
+    },
+{
+      "p": "¿Qué significan las siglas FARC?",
+      "r": "Fuerzas Armadas Revolucionarias de Colombia",
+      "i1": "Frente de Acción Revolucionaria Comunista",
+      "i2": "Frente Armado Revolucionario de Colombia",
+      "i3": "Federación Autónoma Revolucionaria de Colombia"
+    },
+    {
+      "p": "¿Cuál fue el primer trayecto en tren en España?",
+      "r": "Barcelona – Mataró",
+      "i1": "Madrid – Toledo",
+      "i2": "Sevilla – Cádiz",
+      "i3": "Valencia – Alicante"
+    },
+    {
+      "p": "¿Durante qué años reinó de forma impuesta en España José Bonaparte?",
+      "r": "Desde 1808 a 1813",
+      "i1": "Desde 1814 a 1820",
+      "i2": "Desde 1823 a 1833",
+      "i3": "Desde 1834 a 1839"
+    },
+    {
+      "p": "¿En qué ciudad se proclamó la primera constitución liberal de España en 1812?",
+      "r": "Cádiz",
+      "i1": "Madrid",
+      "i2": "Barcelona",
+      "i3": "Sevilla"
+    },
+    {
+      "p": "¿Qué universidad cumplió 125 años en 2011?",
+      "r": "Deusto",
+      "i1": "Complutense",
+      "i2": "Salamanca",
+      "i3": "Granada"
+    },
+    {
+      "p": "¿Según el griego, qué significa el nombre 'Mesopotamia'?",
+      "r": "Entre Ríos",
+      "i1": "Tierra Sagrada",
+      "i2": "Valle de los Dioses",
+      "i3": "Tierra de los Antiguos"
+    },
+    {
+      "p": "¿Quién recibió en 2009 el Premio Nobel de la Paz?",
+      "r": "Barack Obama",
+      "i1": "Nelson Mandela",
+      "i2": "Malala Yousafzai",
+      "i3": "Kofi Annan"
+    },
+    {
+      "p": "¿Cuántos meses duró la Batalla de Moscú, que tuvo lugar durante la Segunda Guerra Mundial?",
+      "r": "Tres",
+      "i1": "Seis",
+      "i2": "Nueve",
+      "i3": "Doce"
+    },
+    {
+      "p": "¿Qué nombre recibían las mayores circunscripciones políticas y administrativas en la América dominada por España?",
+      "r": "Virreinato",
+      "i1": "Capitanía General",
+      "i2": "Presidencia",
+      "i3": "Real Audiencia"
+    },
+    {
+      "p": "¿Cómo se llama la casilla del centinela?",
+      "r": "Garita",
+      "i1": "Torreta",
+      "i2": "Torreón",
+      "i3": "Atalaya"
+    },
+{
+      "p": "¿Quién fue Bobby Fischer?",
+      "r": "Una leyenda del ajedrez",
+      "i1": "Un famoso músico de jazz",
+      "i2": "Un científico destacado",
+      "i3": "Un reconocido escritor"
+    },
+    {
+      "p": "¿En qué siglo Europa conquistó Australia?",
+      "r": "XVII",
+      "i1": "XVI",
+      "i2": "XVIII",
+      "i3": "XIX"
+    },
+    {
+      "p": "¿En qué año subió Bismarck al poder?",
+      "r": "1862",
+      "i1": "1871",
+      "i2": "1859",
+      "i3": "1888"
+    },
+    {
+      "p": "¿Qué heroína de la Guerra de la Independencia Española murió en Ceuta?",
+      "r": "Agustina de Aragón",
+      "i1": "Carmen Polo",
+      "i2": "Isabel II",
+      "i3": "María Pita"
+    },
+    {
+      "p": "¿En qué año se perpetró la matanza de My Lai?",
+      "r": "1968",
+      "i1": "1975",
+      "i2": "1963",
+      "i3": "1972"
+    },
+    {
+      "p": "¿Quién descubrió América?",
+      "r": "Cristóbal Colón",
+      "i1": "Fernando de Magallanes",
+      "i2": "Vasco da Gama",
+      "i3": "Amerigo Vespucci"
+    },
+    {
+      "p": "¿En qué año viajó el primer hombre a la luna?",
+      "r": "1969",
+      "i1": "1961",
+      "i2": "1972",
+      "i3": "1955"
+    },
+    {
+      "p": "¿Qué otro nombre recibió la Primera Guerra Mundial hasta 1939?",
+      "r": "La Gran Guerra",
+      "i1": "La Guerra Fría",
+      "i2": "La Guerra Civil",
+      "i3": "La Guerra de los Cien Años"
+    },
+    {
+      "p": "¿Dónde se encuentra actualmente la Dama de Elche?",
+      "r": "En Madrid",
+      "i1": "En Barcelona",
+      "i2": "En Valencia",
+      "i3": "En Sevilla"
+    },
+    {
+      "p": "¿Quién dijo que la diferencia entre la estupidez y la genialidad es que la genialidad tiene límites?",
+      "r": "Einstein",
+      "i1": "Da Vinci",
+      "i2": "Shakespeare",
+      "i3": "Newton"
+    },
+{
+      "p": "¿De qué manera consiguió EEUU el estado de Alaska de manos de Rusia?",
+      "r": "Lo compró",
+      "i1": "Lo conquistó",
+      "i2": "Lo heredó",
+      "i3": "Lo negoció"
+    },
+    {
+      "p": "¿Cuál es el nombre fenicio de la ciudad de Málaga?",
+      "r": "Malaka",
+      "i1": "Malaguita",
+      "i2": "Malagueta",
+      "i3": "Malaca"
+    },
+    {
+      "p": "¿Qué ciudad fue llamada por los árabes Al-Basit?",
+      "r": "Albacete",
+      "i1": "Almería",
+      "i2": "Cádiz",
+      "i3": "Sevilla"
+    },
+    {
+      "p": "¿Cuál era el nombre de pila de Lenin?",
+      "r": "Vladímir",
+      "i1": "Nicolás",
+      "i2": "Alexandr",
+      "i3": "Iván"
+    },
+    {
+      "p": "¿En qué país nació el rey Juan Carlos I?",
+      "r": "Italia",
+      "i1": "España",
+      "i2": "Francia",
+      "i3": "Reino Unido"
+    },
+    {
+      "p": "¿Cómo era la relación de Juana I La Loca con su marido, Felipe I?",
+      "r": "Juana sentía unos celos patológicos",
+      "i1": "Eran una pareja feliz",
+      "i2": "No se conocían",
+      "i3": "Felipe tenía celos de Juana"
+    },
+    {
+      "p": "¿Para qué vehículo se necesitó un carné de conducir por primera vez en España?",
+      "r": "Automóvil",
+      "i1": "Bicicleta",
+      "i2": "Motocicleta",
+      "i3": "Carroza de caballos"
+    },
+    {
+      "p": "¿En qué año se proclamó la II República Española?",
+      "r": "1931",
+      "i1": "1921",
+      "i2": "1941",
+      "i3": "1951"
+    },
+    {
+      "p": "¿Quién ganó las elecciones presidenciales de la república de México en 2012?",
+      "r": "Enrique Peña Nieto",
+      "i1": "Andrés Manuel López Obrador",
+      "i2": "Felipe Calderón",
+      "i3": "Vicente Fox"
+    },
+    {
+      "p": "¿Cuántos mandamientos hay en el cristianismo?",
+      "r": "10",
+      "i1": "7",
+      "i2": "12",
+      "i3": "5"
+    },
+{
+      "p": "¿En qué viaje Colón encontró a los Mayas?",
+      "r": "Cuarto",
+      "i1": "Primer",
+      "i2": "Segundo",
+      "i3": "Tercer"
+    },
+    {
+      "p": "¿Dónde vivía Ana Frank?",
+      "r": "Ámsterdam",
+      "i1": "Berlín",
+      "i2": "París",
+      "i3": "Londres"
+    },
+    {
+      "p": "¿Quién conquistó Valencia de los musulmanes?",
+      "r": "Jaume I",
+      "i1": "Fernando III",
+      "i2": "Carlos I",
+      "i3": "Felipe II"
+    },
+    {
+      "p": "¿Qué sobrenombre tenía Guillermo I de Inglaterra?",
+      "r": "El Conquistador",
+      "i1": "El Sabio",
+      "i2": "El Magnánimo",
+      "i3": "El Valiente"
+    },
+    {
+      "p": "¿Cuántos colores tiene la bandera española?",
+      "r": "Dos",
+      "i1": "Tres",
+      "i2": "Cuatro",
+      "i3": "Cinco"
+    },
+    {
+      "p": "¿Quiénes fueron los Reyes Católicos?",
+      "r": "Isabel I y Fernando II",
+      "i1": "Carlos V y Juana I",
+      "i2": "Felipe II y María I",
+      "i3": "Alfonso XII y María de las Mercedes"
+    },
+    {
+      "p": "¿En qué país nació el protestantismo?",
+      "r": "Alemania",
+      "i1": "Inglaterra",
+      "i2": "Italia",
+      "i3": "Francia"
+    },
+    {
+      "p": "¿Qué motivó la rebelión que dio lugar a la Guerra de la Independencia de EEUU?",
+      "r": "Impuesto",
+      "i1": "Religión",
+      "i2": "Territorio",
+      "i3": "Comercio"
+    },
+    {
+      "p": "¿De qué estaba fabricado originalmente el maquillaje blanco de las Geishas?",
+      "r": "Plomo",
+      "i1": "Arroz",
+      "i2": "Yeso",
+      "i3": "Talco"
+    },
+    {
+      "p": "¿Quién presidía España durante el fallido golpe de estado del 23 de Febrero de 1981?",
+      "r": "Adolfo Suárez",
+      "i1": "Felipe González",
+      "i2": "Leopoldo Calvo-Sotelo",
+      "i3": "Santiago Carrillo"
+    },
+{
+      "p": "¿Quién gobernó Francia desde 1799 a 1815?",
+      "r": "Napoleón Bonaparte",
+      "i1": "Luis XVI",
+      "i2": "Robespierre",
+      "i3": "Luigi Buonaparte"
+    },
+    {
+      "p": "¿Cómo se llama la capital del antiguo imperio azteca?",
+      "r": "Tenochtitlan",
+      "i1": "Cuzco",
+      "i2": "Teotihuacán",
+      "i3": "Machu Picchu"
+    },
+    {
+      "p": "¿Cómo se llama la sustancia que se utiliza en la Iglesia para hacer mucho humo?",
+      "r": "Incienso",
+      "i1": "Mirra",
+      "i2": "Cera",
+      "i3": "Sándalo"
+    },
+    {
+      "p": "¿Quién fue galardonado con el premio Nobel de la Paz en 2007?",
+      "r": "Albert Gore",
+      "i1": "Barack Obama",
+      "i2": "Nelson Mandela",
+      "i3": "Malala Yousafzai"
+    },
+    {
+      "p": "¿Dónde surgió la filosofía?",
+      "r": "Grecia",
+      "i1": "Egipto",
+      "i2": "China",
+      "i3": "India"
+    },
+    {
+      "p": "¿Quién es el actual presidente de México (2014)?",
+      "r": "Enrique Peña Nieto",
+      "i1": "Andrés Manuel López Obrador",
+      "i2": "Felipe Calderón",
+      "i3": "Vicente Fox"
+    },
+    {
+      "p": "¿Qué fue Dracón?",
+      "r": "Legislador",
+      "i1": "Filósofo",
+      "i2": "Rey",
+      "i3": "General"
+    },
+    {
+      "p": "¿Cuál de los siguientes políticos no ha estado implicado en la trama Gürtel?",
+      "r": "Mariano Rajoy",
+      "i1": "Francisco Correa",
+      "i2": "Luis Bárcenas",
+      "i3": "Jesús Sepúlveda"
+    },
+    {
+      "p": "¿Qué país fue dirigido por Stalin?",
+      "r": "Unión Soviética",
+      "i1": "Alemania",
+      "i2": "Estados Unidos",
+      "i3": "China"
+    },
+    {
+      "p": "¿En qué partido se organizan hoy los carlistas?",
+      "r": "Comunión Tradicionalista Carlista",
+      "i1": "Partido Popular",
+      "i2": "Partido Socialista Obrero Español",
+      "i3": "Unión Progreso y Democracia"
+    },
+{
+      "p": "¿Con qué emperador estuvo casada Cleopatra?",
+      "r": "Todas son correctas",
+      "i1": "Julio César",
+      "i2": "Marco Antonio",
+      "i3": "Ptolomeo XIII"
+    },
+    {
+      "p": "¿A qué presidente cesó el rey Alfonso XIII tras las reacciones que sucedieron a la Semana Trágica?",
+      "r": "Antonio Maura",
+      "i1": "Manuel García Prieto",
+      "i2": "Eduardo Dato",
+      "i3": "Conde de Romanones"
+    },
+    {
+      "p": "¿Cuántos soldados argentinos murieron en la Guerra de las Malvinas?",
+      "r": "649",
+      "i1": "255",
+      "i2": "408",
+      "i3": "732"
+    },
+    {
+      "p": "¿Con qué hecho histórico relacionarías al 'hombre del tanque' o 'rebelde desconocido'?",
+      "r": "Protestas de plaza Tian'anmen, Pekín",
+      "i1": "Revolución Cultural China",
+      "i2": "Independencia de Taiwán",
+      "i3": "Guerra del Opio"
+    },
+    {
+      "p": "¿A qué dirigente latinoamericano mandó callar Juan Carlos de Borbón?",
+      "r": "Hugo Chávez",
+      "i1": "Fidel Castro",
+      "i2": "Evo Morales",
+      "i3": "Nicolás Maduro"
+    },
+    {
+      "p": "¿Las revueltas de dónde son llamadas Intifadas?",
+      "r": "Palestina",
+      "i1": "Siria",
+      "i2": "Irak",
+      "i3": "Líbano"
+    },
+    {
+      "p": "¿De qué fue ministro Manuel Fraga durante el franquismo?",
+      "r": "De Información y Turismo",
+      "i1": "De Agricultura",
+      "i2": "De Defensa",
+      "i3": "De Educación"
+    }
+  ]
