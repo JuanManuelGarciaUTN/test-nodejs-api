@@ -1,10 +1,12 @@
 const express = require("express");
 const process = require('process');
+const cors = require('cors');
 const Preguntados = require("./controllers/preguntados.js");
 
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 app.get("/arte", Preguntados.obtenerPreguntasArte);
 app.get("/deporte", Preguntados.obtenerPreguntasDeporte);
